@@ -5,6 +5,12 @@
 }
 
 .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
     position: relative;
     min-height: 100vh;
     background:#ffffff;
@@ -75,4 +81,16 @@
     .container .popup-image img {
         width: 95%;
     }
+}
+
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
 }
