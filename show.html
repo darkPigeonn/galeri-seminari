@@ -85,6 +85,36 @@
                     <img src="images/9.jpg" alt="">
                 </div>
             </a>
+            <a href="images/10.jpg" data-lightbox="models" data-title="Gambar 9">
+                <div class="image">
+                    <img src="images/10.jpg" alt="">
+                </div>
+            </a>
+            <a href="images/11.jpg" data-lightbox="models" data-title="Gambar 9">
+                <div class="image">
+                    <img src="images/11.jpg" alt="">
+                </div>
+            </a>
+            <a href="images/12.jpg" data-lightbox="models" data-title="Gambar 9">
+                <div class="image">
+                    <img src="images/12.jpg" alt="">
+                </div>
+            </a>
+            <a href="images/13.jpg" data-lightbox="models" data-title="Gambar 9">
+                <div class="image">
+                    <img src="images/13.jpg" alt="">
+                </div>
+            </a>
+            <a href="images/14.jpg" data-lightbox="models" data-title="Gambar 9">
+                <div class="image">
+                    <img src="images/14.jpg" alt="">
+                </div>
+            </a>
+            <a href="images/15.jpg" data-lightbox="models" data-title="Gambar 9">
+                <div class="image">
+                    <img src="images/15x.jpg" alt="">
+                </div>
+            </a>
 
         </div>
 
@@ -108,17 +138,15 @@
 
     <script>
       document.addEventListener('contextmenu', event => event.preventDefault());
-    </script>
-
-    <script>
       document.addEventListener("keyup", function (e) {
+        console.log(e);
     var keyCode = e.keyCode ? e.keyCode : e.which;
             if (keyCode == 44) {
                 stopPrntScr();
             }
         });
 function stopPrntScr() {
-
+            console.log('hai');
             var inpFld = document.createElement("input");
             inpFld.setAttribute("value", ".");
             inpFld.setAttribute("width", "0");
@@ -137,6 +165,10 @@ function stopPrntScr() {
             }
         }
         setInterval("AccessClipboardData()", 300);
+    </script>
+
+    <script>
+     
     </script>
 </body>
 </html>
