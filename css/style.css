@@ -5,6 +5,7 @@
 }
 
 .container {
+  
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -13,7 +14,7 @@
     padding: 50px 8%;
     position: relative;
     min-height: 100vh;
-    background:#ffffff;
+
 }
 
 
